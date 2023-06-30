@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title">Simple, traffic-based pricing</h1>
+            <p class="header-text">Sign-up for our 30-day trial. No credit card required.</p>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="col-3">
+                    <div class="card-title">100k page views</div>
+                    <div class="card-price">
+                        <div class="price">$16.00</div>
+                        <span>/ month</span>
+                    </div>
+                    <div class="card-range"><input type="range" min="0" max="4" step="1" value="2" /></div>
+                </div>
+                <div class="card-toggler">
+                    <span class="text">Monthly Billing</span>
+                    <div class="toggle-component">
+                        <div class="toggle-circle"></div>
+                    </div>
+                    <span class="text">Yearly Billing</span>
+                    <div class="card-discount">25% <span>discount</span></div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <ul class="features">
+                    <li class="feature">
+                        <img src="images/icon-check.svg" alt="check" /><span class="text"
+                            >Ultimate websites</span
+                        >
+                    </li>
+                    <li class="feature">
+                        <img src="images/icon-check.svg" alt="check" /><span class="text"
+                            >100% data ownership</span
+                        >
+                    </li>
+                    <li class="feature">
+                        <img src="images/icon-check.svg" alt="check" /><span class="text">Email reports</span>
+                    </li>
+                </ul>
+                <button class="btn">Start my trial</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
